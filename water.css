@@ -1,0 +1,140 @@
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(143, 248, 209);
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    padding:15px;
+    margin:15px;
+    justify-content: space-between;
+}
+
+
+.head input{
+    height: 50px;
+    width:400px;
+    border-radius: 15px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    position: relative; /* Add position relative to enable absolute positioning within */
+}
+
+.head h3 {
+    font-size: 25px;
+    cursor: pointer; /* Move cursor:pointer to the common selector */
+    color: black; /* Ensure default color */
+}
+
+.head img {
+    height: 300px;
+    width: 400px;
+}
+
+.head img:hover {
+    opacity: 0.8; /* Adjust opacity to give the hover effect */
+}
+
+.energy_content h4,
+.topic_content h4,
+.report_content h4 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.energy_image,
+.topic_image,
+.report_image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.energy_info,
+.topic_info,
+.report_info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
+.energy_content,
+.topic_content,
+.report_content {
+    display: none;
+    position: absolute; /* Add absolute positioning */
+    top: calc(100% + 10px); /* Adjust top position to appear below the header */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontally centered position */
+    background-color: white; /* Add background color */
+    padding: 20px; /* Add padding for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for better visibility */
+    z-index: 1; /* Ensure it appears above other content */
+}
+
+.energy:hover .energy_content,
+.topic:hover .topic_content,
+.report:hover .report_content {
+    display: block; /* Show content on hover */
+}
+
+.energy_content img,
+.topic_content img,
+.report_content img {
+    height: 150px; /* Adjust image size */
+    width: 200px;
+    margin: 5px; /* Add margin for spacing */
+}
+
+
+.water_image img{
+     width:1330px;
+     height:600px;
+}
+.water_sustainability{
+    background-color: rgb(226, 224, 224);
+    height:500px;
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+   
+}
+.water_sustainability h1{
+font-size:40px;    
+}
+.water_sustainability p{
+ font-size:25px;   
+ margin-left: 80px;
+ margin-right:50px;
+}
+.solution{
+    display: flex;
+}
+.solution p{
+    font-size: 25px ; 
+}
+.solution img{
+    height:500px;
+}
+
+.footer{
+    background-color: rgb(79, 78, 78);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:600px;
+}
+.footer div{
+    padding:50px;
+}
+.footer a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+

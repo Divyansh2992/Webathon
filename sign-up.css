@@ -1,0 +1,50 @@
+body{
+    position: absolute;
+    top:4rem;
+    left:28.125rem;
+}
+.outer{
+    height:33rem;
+    width:25rem;
+    color:white;
+    background-color: black;
+   
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.head a{
+    position: absolute;
+    right:20px;
+    color: rgb(160, 158, 158);
+}
+.info{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: rgb(160, 158, 158);
+    width:15.625rem;
+    height:25px;
+}
+button{
+    background-color: aquamarine;
+    height:30px;
+}
+.footer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    margin:5px;
+}
+a{
+    text-decoration: none;
+    margin: 5px;
+}
